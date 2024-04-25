@@ -1,0 +1,103 @@
+body{
+   background-image: linear-gradient(plum,	#B0C4DE);
+}
+.card{
+      max-width: 450pt;
+      margin: 20px auto;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px blue (0, 0, 0, 0.2);
+}
+header {
+   text-align: center;
+   background:url('../asset/latar2.png');
+   color: #fff;
+   padding: 20px;
+}
+img {
+   border-radius: 30%;
+   width: 160px;
+   height: 160px;
+   text-align: center;
+}
+main {
+   padding: 0px;
+   margin-top: 100pt;
+   text-align: center;
+}
+h2 {
+   color: black;
+   text-align: center;
+
+}
+p{
+   text-align: center;
+   color:salmon;
+}
+h1{
+   color:salmon;
+}
+ul {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+}
+li {
+   margin: 10px 0;
+   text-align: center;
+   color:salmon;
+}
+a {
+   text-decoration: none;
+   color: #DDA0DD;
+   font-weight: bold;
+   text-align: center;
+}
+a:hover {
+   color: #DDA0DD;
+   text-align: center;
+}
+button {
+   display: block;
+   margin: 10px auto;
+   padding: 10px 14px;
+   background-color: #DDA0DD;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   transition: 1.3s ease;
+   border-radius: 10px; 
+   text-align: center;
+}
+.back-button a {
+   color: #fff;
+   border-radius: 5px;
+   text-align: center;
+}
+@keyframes fadeIn {
+   from {
+       opacity: 0;
+       transform: translateY(-20px); 
+   }
+   to {
+       opacity: 1; 
+       transform: translateY(0); 
+   }
+}
+@keyframes slideInNav {
+   from {
+       margin-left: -300px; 
+   }
+   to {
+       margin-left: 0; 
+   }
+}
+
+@keyframes fadeInNav {
+   from {
+       opacity: 0; 
+   }
+   to {
+       opacity: 1;
+   }
+}
